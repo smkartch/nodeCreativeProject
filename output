@@ -1,0 +1,11 @@
+nohup: ignoring input
+Listening on port 3000
+[0mGET /cutecats.html? [36m304 [0m4.191 ms - -[0m
+[0mGET /css/styles.css [33m404 [0m171.784 ms - 1162[0m
+[0mGET /stylesheets/style.css [36m304 [0m172.685 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m3.463 ms - -[0m
+[0mGET /BizPix/cats.jpg [36m304 [0m0.416 ms - -[0m
+[0mGET /cutecats.html? [36m304 [0m0.410 ms - -[0m
+[0mGET /css/styles.css [33m404 [0m14.278 ms - 1162[0m
+[0mGET /stylesheets/style.css [36m304 [0m14.625 ms - -[0m
+[0mGET /javascripts/script.js [36m304 [0m14.683 ms - -[0m

@@ -1,0 +1,215 @@
+body, html {
+    overflow-x: hidden;
+    color: #8585ad;
+    text-align: center;
+     background-image: url("../BizPix/cats.jpg");
+}
+
+li{
+  font-size: larger;
+  text-align: left;
+}
+
+.navbar-light {
+    background-color: #e6f2ff !important;
+}
+
+.navbar-light .active {
+    text-decoration: underline;
+}
+.navbar-light a {
+    color: #8585ad !important;
+}
+
+#home {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #8585ad;
+}
+
+#about{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 25px;
+}
+
+#about2 {
+    float: left;
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 50px;
+   
+}
+
+.container {
+   background: rgba(255, 255, 255, 0.9);
+}
+
+#testimonials {
+  background: none !important;
+}
+
+#photoCol {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+#lifehistory{
+  float: left;
+    width: 25%;
+    padding: 5px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+#merch {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+#taylor {
+  transform:rotate(90deg);
+  width: 100%;
+  padding-top: 73px;
+    overflow: hidden;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rowTest{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.columnTest {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.columnTest img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.9);
+  color: #8585ad;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+.wrapper {
+  width: 1000px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: rrepeat(6, 300px);
+  grid-template-rows: 300px 300px 300px;
+  grid-auto-flow: column;
+}
+
+
+#myButton {
+	box-shadow:inset 0px 0px 14px 6px #8585ad;
+	background:linear-gradient(to bottom, #e6f2ff 5%, #8585ad 100%);
+	background-color:#e6f2ff !important;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:2px 72px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+#myButton:hover {
+	background:linear-gradient(to bottom, #8585ad 5%, #e6f2ff 100%) !important;
+	background-color:#8585ad !important;
+}
+#myButton:active {
+	position:relative !important;
+	top:1px !important;
+}
+#catImage {
+  width: 510px;
+  height: auto;
+}
+
+button {
+  
+}
+
+#white {
+  background-color: white !important;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#black {
+  background-color: rgb(28,28,28) !important;
+  color: white;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#gray {
+  background-color: rgb(176,176,176) !important;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#blue {
+  background-color: rgb(192,208,223) !important;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#pink {
+  background-color: rgb(235,188,196) !important;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#sand {
+  background-color: rgb(205,191,166) !important;
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
