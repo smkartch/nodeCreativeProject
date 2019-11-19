@@ -4,7 +4,7 @@ global Vue*/
 document.getElementById("myButton").addEventListener("click", function(event) {
     event.preventDefault();
     
-    const url = "https://api.thecatapi.com/v1/images/search";
+    const url = "cat";
     fetch(url)
         .then(function(response) {
             return response.json();
